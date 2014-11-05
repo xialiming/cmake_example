@@ -1,0 +1,3 @@
+SET(LIBSTATIC01_SRC static01.c)
+ADD_LIBRARY(static01 STATIC ${LIBSTATIC01_SRC})
+include_directories(${PROJECT_SOURCE_DIR}/include)
